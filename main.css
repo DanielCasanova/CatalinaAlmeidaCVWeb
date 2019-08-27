@@ -1,0 +1,39 @@
+html 
+{ 
+    scroll-behavior: smooth; 
+} 
+
+body
+{
+    background-color: #ffffff;
+}
+
+.jumbotron
+{
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+#mainNavbar
+{
+    font-size: 1.5rem;
+    font-weight: 100;
+    background-color: #6a6a6a;
+}
+
+#mainNavbar .navbar-brand
+{
+    color: #ea1c2c;
+}
+
+#mainNavbar .nav-link
+{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover
+{
+    color: #ea1c2c;
+}

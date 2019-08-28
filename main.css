@@ -5,15 +5,29 @@ html
 
 body
 {
-    background-color: #ffffff;
+    background-color: #ff0000;
 }
 
 .jumbotron
 {
-    height: 100vh;
+    background-color:  #66ffff;
 
     display: flex;
     align-items: center;
+}
+
+#landingPage 
+{
+    background-color:  #33ff33;
+
+    height: 100vh;
+}
+
+#regularPage
+{
+    background-color:  #ffff33;
+
+    height: 100vh;
 }
 
 #mainNavbar

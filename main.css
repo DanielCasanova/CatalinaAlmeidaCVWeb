@@ -16,6 +16,24 @@ body
     align-items: center;
 }
 
+.force-to-bottom 
+{
+    position:absolute;
+    bottom: 5%;
+    width: 100%;
+}
+
+.imageMaxSize
+{
+    max-width: 90%;
+    max-height: 90%
+}
+
+.padding-top
+{
+    padding-top: 1%;
+}
+
 #landingPage 
 {
     background-color:  #33ff33;

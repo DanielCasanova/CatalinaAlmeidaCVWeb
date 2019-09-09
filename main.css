@@ -16,18 +16,50 @@ body
     align-items: center;
 }
 
-#landingPage 
+.force-to-bottom 
 {
-    background-color:  #33ff33;
-
-    height: 100vh;
+    position:absolute;
+    bottom: 5%;
+    width: 100%;
 }
 
-#regularPage
+.imageMaxSize
+{
+    max-width: 90%;
+    max-height: 90%
+}
+
+.padding-top
+{
+    padding-top: 1%;
+}
+
+.unpaddedPage
 {
     background-color:  #ffff33;
 
     height: 100vh;
+}
+
+.paddedPage
+{
+    background-color:  hotpink;
+
+    height: 100vh;
+    padding-top: 5%;
+}
+
+.marginImage
+{
+    margin-top: 5%;
+}
+
+#landingPage
+{
+    background-color:  #33ff33;
+
+    height: 80vh;
+    margin-top: 10%;
 }
 
 #mainNavbar

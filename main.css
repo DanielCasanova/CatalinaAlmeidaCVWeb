@@ -1,11 +1,29 @@
 html 
 { 
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 } 
 
 body
 {
     background-color: #ff0000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3
+{
+    font-size: 50px;
+}
+
+p
+{
+    font-size: 25px;
+}
+
+.container-fluid
+{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .jumbotron

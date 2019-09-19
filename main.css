@@ -19,13 +19,6 @@ p
     font-size: 25px;
 }
 
-.container-fluid
-{
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
 .jumbotron
 {
     background-color:  #66ffff;
@@ -34,7 +27,22 @@ p
     align-items: center;
 }
 
-.force-to-bottom 
+.mainContainerFluid
+{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.imageContainerFluid
+{
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+}
+
+.force-to-bottom
 {
     position:absolute;
     bottom: 5%;

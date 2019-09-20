@@ -96,6 +96,26 @@ p
     color: #ff5f34;
 }
 
+.enjoyParent
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.enjoyChild
+{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.imageDefault
+{
+    max-width: 100%;
+}
+
 #landingPage
 {
     background-color:  #33ff33;
@@ -130,18 +150,6 @@ p
 {
     margin-left: 10px;
     height: 40%;
-}
-
-#enjoyGrid
-{
-    max-width: 50%;
-    height: 50px;
-}
-
-#enjoyImages
-{
-    max-height: 100%;
-    max-width: 100%;
 }
 
 /*TO DELETE*/

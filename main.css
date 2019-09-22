@@ -27,8 +27,8 @@ p
 
 .jumbotron
 {
-    background-color:  #66ffff;
-
+    background-color: #414952;
+    color: white;
     display: flex;
     align-items: center;
 }
@@ -91,6 +91,11 @@ p
     max-width: 100%;
 }
 
+.textHighlight
+{
+    color: #ffc850;
+}
+
 .yearHighlight
 {
     color: #ff5f34;
@@ -98,6 +103,7 @@ p
 
 .enjoyParent
 {
+    padding-bottom: 25px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -118,8 +124,6 @@ p
 
 #landingPage
 {
-    background-color:  #33ff33;
-
     height: 80vh;
     margin-top: 10%;
 }

@@ -68,8 +68,6 @@ p
 
 .unpaddedPage
 {
-    background-color:  #ffff33;
-
     height: 100vh;
 }
 
@@ -79,6 +77,12 @@ p
 
     height: 100vh;
     padding-top: 5%;
+}
+
+.subTitlePadding
+{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .marginImage
@@ -101,19 +105,32 @@ p
     color: #ff5f34;
 }
 
-.enjoyParent
+.imageGridParent
 {
     padding-bottom: 25px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+
+    width: 100%;
+    height: auto;
 }
 
-.enjoyChild
+.imageGridChild
 {
     flex-grow: 1;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+
+    width: 250px;
+}
+
+.imageGridTopAlign
+{
+    align-items: flex-start;
+}
+
+.imageGridBottomAlign
+{
     align-items: flex-end;
 }
 

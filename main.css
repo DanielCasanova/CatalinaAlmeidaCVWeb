@@ -41,9 +41,9 @@ p
 
 .mainContainerFluid
 {
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .imageContainerFluid
@@ -157,9 +157,41 @@ p
     font-size: 16px;
 }
 
+.justifyText
+{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .links
 {
     color: white;
+}
+
+.noPadding
+{
+    padding: 0 0 0 0;
+}
+
+.noMargin
+{
+    margin: 0 0 0 0;
+}
+
+.marginTopLarge
+{
+    margin-top: 4.5vh;
+}
+
+.marginTopMedium
+{
+    margin-top: 3vh;
+}
+
+.marginTopSmall
+{
+    margin-top: 1.5vh;
 }
 
 #landingPage

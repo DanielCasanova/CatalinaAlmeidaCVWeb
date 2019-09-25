@@ -16,17 +16,17 @@ h1
 
 h3
 {
-    font-size: 32px;
+    font-size: 34px;
 }
 
 h4
 {
-    color: white;
+    font-size: 26px;
 }
 
 p
 {
-    font-size: 16px;
+    font-size: 18px;
     color: white;
 }
 
@@ -103,6 +103,11 @@ p
     color: #ffc850;
 }
 
+.textAlign
+{
+    text-align: center;
+}
+
 .yearHighlight
 {
     color: #ff5f34;
@@ -144,6 +149,11 @@ p
 .imageDefault
 {
     max-width: 100%;
+}
+
+.regText
+{
+    font-size: 16px;
 }
 
 .links

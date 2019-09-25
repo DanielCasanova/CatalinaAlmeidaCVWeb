@@ -17,6 +17,7 @@ h1
 h3
 {
     font-size: 34px;
+    color: white;
 }
 
 h4
@@ -165,6 +166,19 @@ p
 {
     height: 80vh;
     margin-top: 10%;
+}
+
+#landingPageCenter
+{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#landingPageContent
+{
+    flex-grow: 1;
 }
 
 #mainNavbar

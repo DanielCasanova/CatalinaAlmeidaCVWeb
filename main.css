@@ -39,6 +39,11 @@ p
     align-items: center;
 }
 
+.pageTitlePaddingTop
+{
+    padding-top: 64px;
+}
+
 .mainContainerFluid
 {
     width: 80%;
@@ -265,11 +270,4 @@ p
     justify-content: center;
     align-items: center;
     margin-bottom: 0;
-}
-
-/*TO DELETE*/
-
-#imgBack
-{
-    background-color: aquamarine;
 }

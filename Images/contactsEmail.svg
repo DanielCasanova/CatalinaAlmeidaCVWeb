@@ -1,0 +1,17 @@
+<svg id="contactsEmial" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <rect id="Rectangle_75" data-name="Rectangle 75" width="100" height="100" rx="25" fill="#fff"/>
+  <g id="Group_353" data-name="Group 353" transform="translate(16.667 11.667)">
+    <path id="Path_953" data-name="Path 953" d="M-784.3,7264.908h0l-17.594,16.617,25,20.833v-44.445Z" transform="translate(843.56 -7226.432)" fill="#d80027"/>
+    <path id="Path_954" data-name="Path 954" d="M-895.643,7257.913v44.445l25-20.833Z" transform="translate(895.643 -7226.432)" fill="#ff5023"/>
+    <path id="Path_955" data-name="Path 955" d="M-870.643,7311.038l-25,20.833h33.333v-12.963Z" transform="translate(895.643 -7255.946)" fill="#d80027"/>
+    <path id="Path_956" data-name="Path 956" d="M-820.643,7318.908v12.963h33.333l-25-20.833Z" transform="translate(853.977 -7255.946)" fill="#a2001d"/>
+    <path id="Path_957" data-name="Path 957" d="M-888.237,7242.176l-7.406,6.994h7.406Z" transform="translate(895.643 -7217.689)" fill="#ff5023"/>
+    <path id="Path_958" data-name="Path 958" d="M-754.9,7249.169l-7.406-6.995v6.995Z" transform="translate(821.568 -7217.688)" fill="#ff5023"/>
+    <path id="Path_959" data-name="Path 959" d="M-835.409,7187.08l-11.812,11.156,23.6-.028Z" transform="translate(868.742 -7187.08)" fill="#ff5023"/>
+    <path id="Path_960" data-name="Path 960" d="M-762.306,7264.908l7.406-6.995h-7.406Z" transform="translate(821.568 -7226.432)" fill="#a2001d"/>
+    <path id="Path_961" data-name="Path 961" d="M-862.31,7289.4l-25.929-24.488v-6.994h-7.406l25,23.611Z" transform="translate(895.643 -7226.432)" fill="#a2001d"/>
+    <path id="Path_962" data-name="Path 962" d="M-878.983,7239.444l25.929,24.488,8.333-7.871,17.594-16.617h0V7212.08l-14.143.017-23.595.028-14.114.017v27.3Zm9.262-5.143h33.333v5.557h-33.333Zm0-5.555v-5.556h33.333v5.556Z" transform="translate(886.388 -7200.969)" fill="#dedde0"/>
+    <rect id="Rectangle_64" data-name="Rectangle 64" width="33.333" height="5.556" transform="translate(16.667 22.222)" fill="#fff"/>
+    <rect id="Rectangle_65" data-name="Rectangle 65" width="33.333" height="5.556" transform="translate(16.667 33.333)" fill="#fff"/>
+  </g>
+</svg>

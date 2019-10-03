@@ -5,6 +5,7 @@
     <title>Title</title>
 
     <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -20,20 +21,20 @@
     <!-- Navbar -->
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-lg fixed-top py-0">
         <div class="container">
-
+  
             <!-- Brand -->
             <a class="navbar-brand" href="#">
-                BRAND
+                <img src="images/brand.svg" alt="brand" height="40px"/>
             </a>
 
             <!-- Toggler -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <!-- Items -->
-            <div id="navbarNav" class="d-flex justify-content-end collapse navbar-collapse">
-                <ul class="navbar-nav">
+            <div id="navbarNavAltMarkup" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#aboutSection">ABOUT<span class="sr-only">(current)</span></a>
                     </li>
@@ -57,118 +58,258 @@
     <!-- End of Navbar -->
 
     <!-- Landing page -->
-    <div id="landingPage" class="container">
+    <div id="landingPage" class="container-fluid mainContainerFluid">
 
-        <div class="jumbotron">
-            <div class="col text-center">
-                <h1 class="row d-flex justify-content-center display-4">
-                    Good listener. Keen eye for design. Quick learner.
-                </h1>
-                <p class="row d-flex justify-content-center lead">
-                    IDEAS AND SUPERPOWERS MAKE GREAT DESIGN
+        <div id="landingPageCenter" class="container-fluid">
+
+            <div id="landingPageContent">
+                <h3 class="textAlign">
+                    <strong>GOOD LISTENER. KEEN EYE FOR DESIGN. QUICK LEARNER.</strong>
+                </h3>
+
+                <p class="textAlign">
+                    <strong><span class="textHighlight">IDEAS</span> AND <span class="textHighlight">SUPERPOWERS</span> MAKE <span class="textHighlight">GREAT DESIGN</span></strong>
                 </p>
             </div>
+
         </div>
 
-        <div class="container force-to-bottom d-flex justify-content-center">
-            <img src="images/Asset 1.svg" alt="Scroll down" height="100px"/>
+        <div class="container-fluid d-flex justify-content-center imageContainerFluid">
+            <img src="images/scrollDown.svg" alt="Scroll down" height="100px"/>
         </div>
 
     </div>
     <!-- End of Landing page -->
 
     <!-- About page -->
-    <div id="aboutSection" class="container paddedPage">
+    <div id="aboutSection" class="container-fluid mainContainerFluid">
 
         <div class="jumbotron">
             <div class="col text-center">
-                <h1 class="row d-flex justify-content-center display-4">
-                    ABOUT
-                </h1>
-                <h3 class="row d-flex justify-content-center lead">
-                    HI, I'M CATALINA DE ALMEIDA AND I'M A GRAPHIC DESIGNER.
+                <h3 class="row d-flex justify-content-center">
+                    <strong><span class="textHighlight">ABOUT</span></strong>
                 </h3>
+                <p class="row d-flex justify-content-center">
+                    <strong>HI, I'M CATALINA DE ALMEIDA AND I'M A GRAPHIC DESIGNER.</strong>
+                </p>
                 <p>
                     ALTHOUGH I HAVE BACKGROUND IN BIOMEDICAL ENGINEERING, MY PASSION HAS ALWAYS BEEN DRAWING, DESIGNING, CREATING.
                 </p>
             </div>
         </div>
 
-        <img class="marginImage" src="images/Asset 2.svg" alt="About image"/>
+        <div class="container-fluid">
+            <h4>
+                <strong><span class="textHighlight">BACKGROUND</span></strong>
+            </h4>
+
+            <div class="d-flex">
+                <div class="d-flex flex-fill justify-content-center">
+                    <img class="imageResponsive" src="images/aboutScheme.svg" alt="About background scheme"/>
+                </div>
+                <div class="p-2 flex-fill bd-highlight">
+                    <div class="d-flex flex-column bd-highlight mb-3">
+                        <div class="p-2"><p>BORN AND RAISED IN MADEIRA ISLAND, PORTUGAL</p></div>
+                        <div class="p-2"><p>MOVED TO PORTUGAL'S MAINLAND<br><span class="yearHighlight">2012</span></p></div>
+                        <div class="p-2"><p>BSC - BIOMEDICAL ENGINEERING<br><span class="yearHighlight">2012-2015</span></p></div>
+                        <div class="p-2"><p>MSC - BIOMATERIALS, REHABILITATION AND BIOMECHANICS<br><span class="yearHighlight">2015-2017</span></p></div>
+                        <div class="p-2"><p>MOVED TO GERMANY<br><span class="yearHighlight">2016</span></p></div>
+                        <div class="p-2"><p>MSC THESIS - ROBOTICS AND BIOMECHANICS<br><span class="yearHighlight">2016-2017</span></p></div>
+                        <div class="p-2"><p>RETURNED TO PORTUGAL'S MAINLAND<br><span class="yearHighlight">2017</span></p></div>
+
+                        <div class="d-flex flex-row bd-highlight mb-3">
+                            <div class="p-2"><p>MSC THESIS PUBLISHED - SPRINGER<br><span class="yearHighlight">2019</span></p></div>
+                            <a href="https://link.springer.com/chapter/10.1007/978-3-030-16423-2_7" title="MSC Thesis" target="_blank"><img id="downloadArticle" src="images/aboutArticle.svg" alt="Download article"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h4>
+                <strong><span class="textHighlight">THINGS I ENJOY</span></strong>
+            </h4>
+
+            <div class="imageGridParent imageGridBottomAlign">
+                <div class="imageGridChild imageGridChildJustifyEvenly"><img class="imageDefault" src="images/likeFood.svg" alt="Enjoy food image"/></div>
+                <div class="imageGridChild imageGridChildJustifyEvenly"><img class="imageDefault" src="images/likeGym.svg" alt="Enjoy gym image"/></div>
+                <div class="imageGridChild imageGridChildJustifyEvenly"><img class="imageDefault" src="images/likeCreating.svg" alt="Enjoy creating image"/></div>
+                <div class="imageGridChild imageGridChildJustifyEvenly"><img class="imageDefault" src="images/likeWeekends.svg" alt="Enjoy weekends image"/></div>
+                <div class="imageGridChild imageGridChildJustifyEvenly"><img class="imageDefault" src="images/likeReading.svg" alt="Enjoy reading image"/></div>
+            </div>
+            <div class="imageGridParent">
+                <div class="imageGridChild imageGridChildJustifyEvenly"><p><strong>EATING</strong></p></div>
+                <div class="imageGridChild imageGridChildJustifyEvenly"><p><strong>GYM</strong></p></div>
+                <div class="imageGridChild imageGridChildJustifyEvenly"><p><strong>CREATING</strong></p></div>
+                <div class="imageGridChild imageGridChildJustifyEvenly"><p><strong>WEEKENDS AT HOME</strong></p></div>
+                <div class="imageGridChild imageGridChildJustifyEvenly"><p><strong>READING</strong></p></div>
+            </div>
+
+        </div>
 
     </div>
     <!-- End of About page -->
 
     <!-- Experience page -->
-    <div id="experienceSection" class="container unpaddedPage">
+    <div id="experienceSection" class="container-fluid mainContainerFluid unpaddedPage">
 
-        <div class="col text-center">
-            <div class="row jumbotron">
-                <div class="col text-center">
-                    <h1 class="row d-flex justify-content-center display-4">
-                        EXPERIENCE
-                    </h1>
-                </div>
-            </div>
+        <div class="pageTitlePaddingTop">
+            <h1 class="textAlign">
+                <strong><span class="textHighlight">EXPERIENCE & QUALIFICATIONS</span></strong>
+            </h1>
+        </div>
 
-            <div class="row-1 container">
-                <img class="imageMaxSize" src="images/Asset 3.svg" alt="About image"/>
-            </div>
-            <div class="row-1 container">
-                <img class="imageMaxSize padding-top" src="images/Asset 4.svg" alt="About image"/>
-            </div>
+        <div class="marginTopLarge">
+            <p class="textAlign">AT PRESENT, I AM A STARTUP’S SOFTWARE QA (QUALITY ASSURANCE) MANAGER AND GRAPHIC/UI/UX DESIGNER.</p>
+        </div>
+
+        <div class="imageGridParent imageGridBottomAlign marginTopLarge">
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img class="imageDefault" src="images/experienceIllustrator.svg" alt="Enjoy food image"/></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img class="imageDefault" src="images/experienceGraphic.svg" alt="Enjoy gym image"/></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img class="imageDefault" src="images/experienceCommManager.svg" alt="Enjoy creating image"/></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img class="imageDefault" src="images/experienceWeb.svg" alt="Enjoy weekends image"/></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img class="imageDefault" src="images/experienceQA.svg" alt="Enjoy reading image"/></div>
+        </div>
+        <div class="imageGridParent">
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p><strong>ILLUSTRATOR</strong></p></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p><strong>GRAPHIC DESIGNER</strong></p></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p><strong>COMMUNICATIONS MANAGER</strong></p></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p><strong>UI/UX DESIGNER</strong></p></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p><strong>SOFTWARE QA MANAGER</strong></p></div>
+        </div>
+
+        <div class="imageGridParent marginTopSmall">
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p class="regText justifyText">AS A <strong><span class="textHighlight">GRAPHIC/UI/UX DESIGNER</span></strong>, I CREATE VISUAL CONCEPTS USING COMPUTER SOFTWARE, TO COMMUNICATE IDEAS TO INFORM AND CAPTIVATE POTENTIAL CUSTOMERS, THROUGH BOTH PHYSICAL AND VIRTUAL ART FORMS, USING COLOUR, IMAGERY AND FONTS. SPECIFICALLY, MY JOB CONSISTS OF DISCUSSING AND  PLANNING PROJECTS WITH MY TEAM, DRAWING OUT IDEAS (BRAND IDENTITY DESIGN), COMPOSING MOCK-UPS AND CREATING DESIGN ELEMENTS (UI/UX DESIGN).</p></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p class="regText justifyText">AS A <strong><span class="textHighlight">SOFTWARE QA MANAGER</span></strong>, I ENSURE CONTINUAL QUALITY IMPROVEMENT OF OUR SOFTWARE SYSTEM BY IMPLEMENTING AND IMPROVING TEST PLANS, FUELLING SWIFT CORRECTIVE ACTIONS, DOCUMENTING SOFTWARE DEFECTS USING BUG TRACKING SYSTEMS AND REPORTING THEM TO SOFTWARE DEVELOPERS.</p></div>
+        </div>
+
+        <div class="subTitlePadding">
+            <h4>
+                <strong><span class="textHighlight">CORE QUALIFICATIONS</span></strong>
+            </h4>
+        </div>
+
+        <div class="imageGridParent imageGridTopAlign">
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img class="imageDefault" src="images/coreStrategy.svg" alt="Enjoy food image"/></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img class="imageDefault" src="images/coreBrand.svg" alt="Enjoy gym image"/></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img class="imageDefault" src="images/coreDesign.svg" alt="Enjoy creating image"/></div>
+        </div>
+        <div class="imageGridParent">
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p class="textAlign"><strong>STRATEGY</strong><br><span class="regText">BRAND STRATEGY<br>UI/UX</span></p></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p class="textAlign"><strong>BRAND DEVELOPMENT</strong><br><span class="regText">VISUAL IDENTITY DESIGN<br>LOGOS & TRADEMARKS</span></p></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p class="textAlign"><strong>VISUAL DESIGN</strong><br><span class="regText">ILLUSTRATIONS<br>PACKAGING</span></p></div>
         </div>
 
     </div>
     <!-- End of Experience page -->
 
     <!-- Skillset page -->
-    <div id="skillsetSection" class="container paddedPage">
+    <div id="skillsetSection" class="container-fluid mainContainerFluid unpaddedPage">
      
         <div class="jumbotron">
             <div class="col text-center">
-                <h1 class="row d-flex justify-content-center display-4">
-                    SKILLSET
+                <h1 class="row d-flex justify-content-center">
+                    <strong><span class="textHighlight">SKILLSET</span></strong>
                 </h1>
             </div>
         </div>
 
-        <img class="marginImage" src="images/Asset 5.svg" alt="Skillset image"/>
+        <div class="imageGridParent imageGridBottomAlign">
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img id="imageSkillset" src="images/skillXD.svg" alt="Enjoy gym image"/></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img id="imageSkillset" src="images/skillAI.svg" alt="Enjoy food image"/></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img id="imageSkillset" src="images/skillPSD.svg" alt="Enjoy creating image"/></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img id="imageSkillset" src="images/skillDesign.svg" alt="Enjoy weekends image"/></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img id="imageSkillset" src="images/skillBlender.svg" alt="Enjoy reading image"/></div>
+        </div>
+        <div class="imageGridParent imageGridTopAlign">
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p class="textAlign"><strong>ADOBE XD</strong><br></p></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p class="textAlign"><strong>ADOBE<br>ILLUSTRATOR</strong><br></p></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p class="textAlign"><strong>ADOBE<br>PHOTOSHOP</strong><br></p></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p class="textAlign"><strong>ADOBE<br>INDESIGN</strong><br></p></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p class="textAlign"><strong>3D BLENDER</strong><br></p></div>
+        </div>
+
+        <div class="marginTopMedium">
+
+            <div class="imageGridParent">
+                <div class="imageGridChild imageGridChildJustifyEvenly"><h4><strong><span class="textHighlight">PRIMARY TOOLS</span></strong></h4></div>
+                <div class="imageGridChild imageGridChildJustifyEvenly"><h4><strong><span class="textHighlight">SECONDARY TOOLS</span></strong></h4></div>
+            </div>
+
+            <div class="imageGridParent noMargin noPadding">
+                <div class="imageGridChild imageGridChildJustifyEvenly"><p class="textAlign noMargin noPadding"><strong><span class="textHighlight">ILLUSTRATOR</span></strong></p></div>
+                <div class="imageGridChild imageGridChildJustifyEvenly"><p class="textAlign noMargin noPadding"><strong><span class="textHighlight">INDESIGN</span></strong></p></div>
+            </div>
+
+            <div class="imageGridParent">
+                <div class="imageGridChild imageGridChildJustifyEvenly"><p class="regText justifyText">EXPRESS IDEAS, CREATE, EDIT AND MANIPULATE VECTOR ELEMENTS, TO PRODUCE HIGH QUALITY LOGOS, ICONS, ILLUSTRATIONS, POSTERS, BROCHURES, ETC.</p></div>
+                <div class="imageGridChild imageGridChildJustifyEvenly"><p class="regText justifyText">CREATE MULTI-PAGE PRINT DOCUMENTS, SUCH AS STYLE GUIDES, VISUAL IDENTITY MANUALS, POSTERS, FLYERS AND BROCHURES.</p></div>
+            </div>
+
+            <div class="imageGridParent noMargin noPadding">
+                <div class="imageGridChild imageGridChildJustifyEvenly"><p class="textAlign noMargin noPadding"><strong><span class="textHighlight">XD</span></strong></p></div>
+                <div class="imageGridChild imageGridChildJustifyEvenly"><p class="textAlign noMargin noPadding"><strong><span class="textHighlight">3D BLENDER AND PHOTOSHOP</span></strong></p></div>
+            </div>
+
+            <div class="imageGridParent">
+                <div class="imageGridChild imageGridChildJustifyEvenly"><p class="regText justifyText">CREATE LOW-FIDELITY WIREFRAMES, PROFESSIONAL INTERACTIVE AND ANIMATED PROTOTYPES OF WEBSITES (DESKTOP AND MOBILE) AND APPS.</p></div>
+                <div class="imageGridChild imageGridChildJustifyEvenly"><p class="regText justifyText">CREATE AND RASTER PACKAGING MOCKUPS</p></div>
+            </div>
+
+        </div>
         
     </div>
     <!-- End of Skillset page -->
 
     <!-- Work page -->
-    <div id="workSection" class="container paddedPage">
+    <div id="workSection" class="container unpaddedPage">
 
         <div class="jumbotron">
             <div class="col text-center">
-                <h1 class="row d-flex justify-content-center display-4">
-                    WORK
+                <h1 class="row d-flex justify-content-center">
+                    <strong><span class="textHighlight">WORK</span></strong>
                 </h1>
             </div>
         </div>
 
-        <img class="marginImage" src="images/Asset 6.svg" alt="Work image"/>
+        <div class="imageGridParent imageGridTopAlign">
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img id="workImage" class="imageDefault" src="images/workLogos.svg" alt="Enjoy food image"/></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img id="workImage" class="imageDefault" src="images/workIllust.svg" alt="Enjoy gym image"/></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><img id="workImage" class="imageDefault" src="images/workWeb.svg" alt="Enjoy creating image"/></div>
+        </div>
         
     </div>
     <!-- End of WORK page -->
 
     <!-- Contact page -->
-    <div id="contactSection" class="container paddedPage">
+    <div id="contactSection" class="container unpaddedPage">
 
         <div class="jumbotron">
             <div class="col text-center">
-                <h1 class="row d-flex justify-content-center display-4">
-                    CONTACT
+                <h1 class="row d-flex justify-content-center">
+                    <strong><span class="textHighlight">CONTACTS</span></strong>
                 </h1>
             </div>
         </div>
 
-        <img class="marginImage" src="images/Asset 7.svg" alt="Contact image"/>
+        <div class="imageGridParent imageGridTopAlign">
+            <div class="imageGridChild imageGridChildJustifyEvenly"><a href="mailto:design@catalinaalmeida.com" title="Catalina Almeida Email"><img class="imageDefault" src="images/contactsEmail.svg" alt="Email"/></a></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><a href="https://www.behance.net/catalinaalmeida" title="Catalina Almeida Behance" target="_blank"><img class="imageDefault" src="images/contactsBehance.svg" alt="Behance"/></a></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><a href="https://pt.linkedin.com/in/catealmeida" title="Catalina Almeida Linkedin" target="_blank"><img class="imageDefault" src="images/contactsLinkedin.svg" alt="Linkedin"/></a></div>
+        </div>
+        <div class="imageGridParent imageGridTopAlign">
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p><strong>design@catalinaalmeida.com</strong></p></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p><strong>catalinaalmeida</strong></p></div>
+            <div class="imageGridChild imageGridChildJustifyEvenly"><p><strong>catealmeida</strong></p></div>
+        </div>
 
     </div>
     <!-- End of Contact page -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 

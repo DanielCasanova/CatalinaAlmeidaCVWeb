@@ -1,22 +1,65 @@
 html 
 { 
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 } 
 
 body
 {
-    background-color: #ff0000;
+    background-color: #414952;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1
+{
+    font-size: 42px;
+}
+
+h3
+{
+    font-size: 34px;
+    color: white;
+}
+
+h4
+{
+    font-size: 26px;
+}
+
+p
+{
+    font-size: 18px;
+    color: white;
 }
 
 .jumbotron
 {
-    background-color:  #66ffff;
-
+    background-color: #414952;
+    color: white;
     display: flex;
     align-items: center;
 }
 
-.force-to-bottom 
+.pageTitlePaddingTop
+{
+    padding-top: 64px;
+}
+
+.mainContainerFluid
+{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.imageContainerFluid
+{
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+}
+
+.force-to-bottom
 {
     position:absolute;
     bottom: 5%;
@@ -36,17 +79,19 @@ body
 
 .unpaddedPage
 {
-    background-color:  #ffff33;
-
     height: 100vh;
 }
 
 .paddedPage
 {
-    background-color:  hotpink;
-
     height: 100vh;
     padding-top: 5%;
+}
+
+.subTitlePadding
+{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .marginImage
@@ -54,12 +99,123 @@ body
     margin-top: 5%;
 }
 
+.imageResponsive
+{
+    max-width: 100%;
+}
+
+.textHighlight
+{
+    color: #ffc850;
+}
+
+.textAlign
+{
+    text-align: center;
+}
+
+.yearHighlight
+{
+    color: #ff5f34;
+}
+
+.imageGridParent
+{
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+}
+
+.imageGridChild
+{
+    flex-grow: 1;
+    display: flex;
+
+    width: 250px;
+}
+
+.imageGridChildJustifyEvenly
+{
+    justify-content: space-evenly;
+}
+
+.imageGridTopAlign
+{
+    align-items: flex-start;
+}
+
+.imageGridBottomAlign
+{
+    align-items: flex-end;
+}
+
+.imageDefault
+{
+    max-width: 100%;
+}
+
+.regText
+{
+    font-size: 16px;
+}
+
+.justifyText
+{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.links
+{
+    color: white;
+}
+
+.noPadding
+{
+    padding: 0 0 0 0;
+}
+
+.noMargin
+{
+    margin: 0 0 0 0;
+}
+
+.marginTopLarge
+{
+    margin-top: 4.5vh;
+}
+
+.marginTopMedium
+{
+    margin-top: 3vh;
+}
+
+.marginTopSmall
+{
+    margin-top: 1.5vh;
+}
+
 #landingPage
 {
-    background-color:  #33ff33;
-
     height: 80vh;
     margin-top: 10%;
+}
+
+#landingPageCenter
+{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#landingPageContent
+{
+    flex-grow: 1;
 }
 
 #mainNavbar
@@ -82,4 +238,36 @@ body
 #mainNavbar .nav-link:hover
 {
     color: #ea1c2c;
+}
+
+#downloadArticle
+{
+    margin-left: 10px;
+    height: 40%;
+}
+
+#imageSkillset
+{
+    max-width: 100%;
+    max-height: 15vh;
+}
+
+#workImage
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#contactImages
+{
+    max-width: 100%;
+    max-height: 5vh;
+}
+
+#contactText
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
 }
